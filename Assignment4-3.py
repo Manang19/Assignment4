@@ -1,3 +1,11 @@
-nolist = [2, 3, 4, 5, 6, 7, 8, 9, 10]
-square_nolist = list(map(lambda x: x ** 2, nolist))
+a=[ ]
+n = int(input("Enter the no. of Element: "))
+
+for i in range  (n):
+    x = int(input("enter the value:"))
+    a.append ((x))
+    print(a)
+
+
+square_nolist = list(map(lambda x: x ** 2, a))
 print(square_nolist)
